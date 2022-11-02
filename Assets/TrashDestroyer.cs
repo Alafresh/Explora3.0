@@ -4,9 +4,17 @@ using UnityEngine;
 
 public class TrashDestroyer : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    [SerializeField] int rangoMin;
+    [SerializeField] int rangoMax;
+    [SerializeField] GameObject[] npc;
+    
+    private void Start()
     {
-        if (other.tag == "npc")
-            Destroy(other.gameObject);
+        InvokeRepeating("CrearCaminante", rangoMin, rangoMax);
+    }
+    public void CrearCaminante()
+    {
+        int randomNpc = Random.Range(0, npc.Length);
+        GameObject tmp = Instantiate(npc[randomNpc], transform.position, transform.rotation);
     }
 }
