@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - npc
+  - Fire
+  - player
   layers:
   - Default
   - TransparentFX
