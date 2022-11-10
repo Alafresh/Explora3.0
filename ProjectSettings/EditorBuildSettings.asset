@@ -6,6 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/0mapa Base.unity
+    guid: 59396773b886dd243907f2ebe0ea897b
+  - enabled: 1
+    path: Assets/Scenes/Hora 1.unity
+    guid: 4dc8ccb8732d0704294a0318e961eb10
+  - enabled: 1
+    path: Assets/Scenes/Hora 2.unity
+    guid: b3f1c571c2861994186c57550565ea54
+  - enabled: 1
+    path: Assets/Scenes/Hora 3.unity
+    guid: d66d48de26ca7a44e924c39ad62d303f
+  - enabled: 1
+    path: Assets/Scenes/Hora 4.unity
+    guid: 4847cacbfda69b04d86929b89a711d83
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
